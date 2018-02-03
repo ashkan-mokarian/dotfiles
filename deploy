@@ -69,7 +69,7 @@ else
 fi
 
 
-check_for_software zsh
+check_for_software zsh-antigen
 echo 
 check_for_software vim
 echo
