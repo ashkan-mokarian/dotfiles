@@ -4,5 +4,4 @@ problems:
 	3. not sure if powerline/fonts needs installation
 
 TODO:
-	1. currently commented out tmux startup in zsh/zshrc_manager.sh. while this can be usefull, but it may cause problems over ssh. check on that
-	2. running zsh/antigen.zsh in the end of zsh/zsh_manager.sh instead of the original zsh/zshrc.sh. have to customize zsh, antigen style. prompt.sh, keybindings.sh, etc not configured in zsh/antigen.zsh
+	1. consider using Vundle for vim plugin management

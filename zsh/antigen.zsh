@@ -9,6 +9,8 @@ antigen bundle <<EOBUNDLES
 
 	# Syntax highlighting bundle.
 	zsh-users/zsh-syntax-highlighting
+
+	zsh-users/zsh-completions
 EOBUNDLES
 
 # Load the theme
@@ -16,3 +18,6 @@ antigen theme robbyrussell
 
 # Tell antigen that you're done
 antigen apply
+
+# Other source files
+source ~/dotfiles/zsh/prompt.sh
